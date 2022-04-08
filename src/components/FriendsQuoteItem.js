@@ -1,10 +1,11 @@
 import React from "react";
 
-const FriendsQuoteItem = () => {
+const FriendsQuoteItem = ({quote}) => {
 
     return (
             <>
-            <h1></h1>
+            <h1>Quote:{quote.quote}</h1>
+            <h2>Character:{quote.character}</h2>
             </>
 
     

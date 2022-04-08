@@ -3,9 +3,9 @@ import FriendsQuoteItem from './FriendsQuoteItem';
 
 const FriendsList = ({friends}) => {
 
-    const FriendsAllQuotes = friends.map((friend, index) => {
+    const FriendsAllQuotes = friends.map((quote, index) => {
         return (
-        <FriendsQuoteItem friend={friend} key = {index}  /> 
+        <FriendsQuoteItem quote={quote} key = {index}  /> 
             )
         })
 
