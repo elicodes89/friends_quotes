@@ -1,9 +1,9 @@
-import FishContainer from './containers/FishContainer';
+import FriendsContainer from './containers/FriendsContainer';
 import './App.css';
 
 function App() {
   return (
-    <FishContainer />
+    <FriendsContainer />
   );
 }
 
