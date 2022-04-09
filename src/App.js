@@ -1,10 +1,8 @@
 import React , { useState , useEffect } from "react";
 import FriendsList from "./components/FriendsList";
 import FriendsHeader from './containers/FriendsHeader'
+import frame from './frame.png'
 import './App.css';
-// import friends from './friends.png';
-// import joey from './joey.png';
-
 
   const App = () => {
 
@@ -36,13 +34,15 @@ import './App.css';
       
   }
   return (
+
     <>
     <div id = "center">
-    <h1>Hello from Friends</h1>
-    </div>
     <FriendsHeader handleChange={(friend) => filteredQuoteList(friend)}/>
-      
+    </div>
+    <div className="all-q" id="center">
     <FriendsList friends = {filtered} />
+    </div>
+    
     </>
   )
   }

@@ -4,8 +4,8 @@ const FriendsQuoteItem = ({quote}) => {
 
     return (
             <>
-            <h1>Quote:{quote.quote}</h1>
-            <h2>Character:{quote.character}</h2>
+            <h1>{quote.character}</h1>
+            <h2>{quote.quote}</h2>
             </>
 
     

@@ -5,8 +5,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #66429E;
-  margin: 100px;
+  /* background-image: url('frame.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 135% 130%;
 }
+
+.all-q{
+  align-items: center;
+  width: 700px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 23px;
+  color: antiquewhite;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,11 +42,10 @@ code {
 
 #center {
 text-align: center;
-margin-top: 70px;
 }
 
 .column {
-  padding: 20px;
+  padding: 15px;
 }
 
 .row {
@@ -34,5 +55,11 @@ margin-top: 70px;
 
 .row div{
   display:inline-block;
-
 }
+
+button {
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #DAB718;
+}
+

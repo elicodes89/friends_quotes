@@ -11,13 +11,6 @@ import chandler from '../chandler.png';
 const FriendsHeader = (props) => {
   return (
     <>
-      {/* <button type="button">
-        <img
-          src={friends}
-          alt="my image"
-          onClick={console.log("button clicked!!!!")}
-        />
-      </button> */}
       <div className="row">
         <div className="column">
       <button onClick={() => props.handleChange("Joey")}><img src={joey} alt="joey" height="100" width="100"></img></button>
@@ -38,9 +31,6 @@ const FriendsHeader = (props) => {
       <button onClick={() => props.handleChange("Chandler")}><img src={chandler} alt="joey" height="100" width="100"></img></button>
         </div>
       </div>
-      
-
-      {/* <input value ={userInput} onChange = {handleInputChange} type='text'/> */}
     </>
   );
 };
