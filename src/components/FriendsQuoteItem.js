@@ -7,7 +7,6 @@ const FriendsQuoteItem = ({quote}) => {
             <h1>{quote.character}</h1>
             <h2>{quote.quote}</h2>
             </>
-
     
     )
 };

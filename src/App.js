@@ -1,8 +1,7 @@
 import React , { useState , useEffect } from "react";
 import FriendsList from "./components/FriendsList";
 import FriendsHeader from './containers/FriendsHeader'
-import frame from './frame.png'
-import './App.css';
+import friend1 from './friend1.png'
 
   const App = () => {
 
@@ -34,8 +33,8 @@ import './App.css';
       
   }
   return (
-
     <>
+    
     <div id = "center">
     <FriendsHeader handleChange={(friend) => filteredQuoteList(friend)}/>
     </div>

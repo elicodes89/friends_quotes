@@ -5,10 +5,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #66429E;
-  /* background-image: url('frame.png'); */
+  display:block;
+
+  /* background-image: url('frame.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 135% 130%;
+  background-size: 135% 130%; */
 }
 
 .all-q{
@@ -27,8 +29,6 @@ h2{
   font-size: 23px;
   color: antiquewhite;
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -63,3 +63,6 @@ button {
   background-color: #DAB718;
 }
 
+.img div{
+  height: 100px;
+}
