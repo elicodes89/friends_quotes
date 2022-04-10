@@ -1,7 +1,6 @@
 import React , { useState , useEffect } from "react";
 import FriendsList from "./components/FriendsList";
 import FriendsHeader from './containers/FriendsHeader'
-import friend1 from './friend1.png'
 
   const App = () => {
 
@@ -36,6 +35,7 @@ import friend1 from './friend1.png'
     <>
     
     <div id = "center">
+      <h1>Click to check who said what</h1>
     <FriendsHeader handleChange={(friend) => filteredQuoteList(friend)}/>
     </div>
     <div className="all-q" id="center">
